@@ -15,4 +15,4 @@ ADD --chown=node:node . ./
 
 EXPOSE 3000
 
-CMD ["/home/node/app/node_modules/.bin/ts-node-dev", "index.ts"]
+CMD ["/home/node/app/node_modules/.bin/ts-node", "index.ts"]
